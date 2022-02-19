@@ -1,0 +1,15 @@
+{
+  "name": "string-to-emoji",
+  "version": "1.0.0",
+  "description": "For any given string, get a random emoji.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["random", "emoji", "seed", "word", "string"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "seed-random": "^2.2.0"
+  }
+}
