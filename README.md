@@ -3,9 +3,9 @@ For any given string, get a random emoji.
 The same emoji is always returned for any given string.
 
 ```js
-import stringToEmoji from 'string-to-emoji';
+import stringToRandomEmoji from 'string-to-random-emoji';
 
-stringToEmoji('word') // 🧨
-stringToEmoji('another') // 🐴
-stringToEmoji('another') // 🐴
+stringToRandomEmoji('word') // 🧨
+stringToRandomEmoji('another') // 🐴
+stringToRandomEmoji('another') // 🐴
 ```

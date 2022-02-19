@@ -9,11 +9,11 @@ const emojiListLength = emojiList.length
  * @param {string} str
  * @returns {string}
  */
-function stringToEmoji (str) {
+function stringToRandomEmoji (str) {
   const random = seedRandom(str)()
   const index = Math.floor(random * emojiListLength)
 
   return emojiList[index]
 }
 
-module.exports = stringToEmoji
+module.exports = stringToRandomEmoji
